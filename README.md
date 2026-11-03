@@ -2,6 +2,8 @@
 
 A clickable mock of a quarterly review tool for tax deducted at source (TDS) in India. It accompanies my take-home brief for Tresata.
 
+**Live demo:** https://tds-category-check.vercel.app/
+
 **This is a mock.** No AI model is called. The AI output for the sample payments is written in advance, so the results below show how the design behaves, not how accurate a real model would be.
 
 ## The problem
@@ -14,8 +16,8 @@ Before each quarterly return, the tool reads each invoice without seeing its cur
 
 The app is one file, `tds-category-check.html`, with nothing to install or build. It makes no network requests, though the source links on its pages open in your browser.
 
-- **On your computer:** download the file and open it in a browser.
-- **Online:** turn on GitHub Pages for this repository, then open `/tds-category-check.html` on the Pages site. GitHub's normal file view shows only the source code.
+- **Online:** open the [live demo](https://tds-category-check.vercel.app/).
+- **On your computer:** download the file and open it in a browser. GitHub's normal file view shows only the source code.
 
 Nothing is saved. Refreshing the page or clicking **Start over** resets it.
 
